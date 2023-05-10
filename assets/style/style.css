@@ -1,0 +1,50 @@
+.main-background {
+  background-color: #ddeefc;
+  width: 1362px;
+  height: 640px;
+  position: relative;
+}
+.main-container {
+  padding-top: 100px;
+  position: relative;
+}
+
+.form-container {
+  margin-right: 350px;
+  margin-left: 350px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 2;
+}
+.visa-card {
+  position: absolute;
+  z-index: 3;
+  right: 570px;
+  top: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.github-link {
+  display: flex;
+  justify-content: end;
+  margin-right: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 30px;
+}
+
+.github-text {
+  padding: 5px;
+  background-color: rgb(68, 64, 64);
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 4px;
+}
+
+.main-form {
+  padding-right: 40px;
+  padding-left: 30px;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
